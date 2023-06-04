@@ -1,11 +1,64 @@
-.App {
-  text-align: center;
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+h1
+{
+  font-size: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container:hover
+{
+  background-image: linear-gradient(black,white 15%,black);
+  height: 96vh;
+  color: rgb(255, 255, 255);
 }
+.App {
+  font-size: 60px;
+}
+span
+{
+  font-size: 35px;
+  position: absolute;
+  left: 40px;
+  top: 230px;
+}
+.span1
+{
+  position: absolute;
+  left: 40px;
+  top: 370px;
+}
+.span2
+{
+  position: absolute;
+  left: 40px;
+  top: 530px;
+}
+button
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin-top:90px;
+  position:relative;
+  left: 40em;
+}
+
+button:hover
+{
+  background-image: linear-gradient(white 10%,red,white);
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
